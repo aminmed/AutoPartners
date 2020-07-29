@@ -1,0 +1,183 @@
+.dropdown .dropdown-menu .dropdown-item
+{
+    width: auto; 
+    padding: 5px 20px 5px 40px;
+}
+
+.header-navbar .navbar-header .navbar-brand .brand-text {
+    font-weight: 500;
+    display: inline;
+    padding-right: 0px;
+    font-size: 16px;
+}
+
+.header-navbar .navbar-header .navbar-brand .brand-logo {
+    vertical-align: middle;
+}
+
+body.vertical-layout.vertical-menu-modern.menu-expanded .navbar .navbar-brand .brand-text {
+    vertical-align: middle;
+}
+
+@media (max-width: 767.98px)
+{
+	.header-navbar .navbar-header .navbar-brand
+	{
+	    padding: 5px 0;
+	}
+}
+
+.form-control:focus
+{
+    border-color: #0073c6;
+}
+
+.has-icon-left .form-control {
+    padding-left: 2.0rem;
+}
+
+.tagging .tag {
+    background: none repeat scroll 0 0 #1064c1;
+    padding: 7px 0 7px 20px;
+    margin: 5px 0 0 10px;
+}
+
+.tagging .tag span {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 2px 2px 0 0;
+    margin-left: 0;
+    margin-right: 5px;
+    padding: 4px 10px 5px;
+}
+
+.tagging .tag .tag-i {
+    left: auto;
+    right: 5px;
+}
+
+.table th, .table td {
+    padding: .75rem .75rem;
+}
+
+.table th, .table td {
+    border-bottom: 2px solid #e3ebf3;
+}
+
+.page-item.active .page-link {
+    border-color: #0073c6;
+    background-color: #1064c1;
+}
+
+.page-link {
+    color: #1064c1;
+    border: 1px solid #000000;
+}
+
+.page-link:hover {
+    color: #000000;
+    border-color: #0073c6;
+    background-color: #f5f7fa;
+}
+
+.page-item.disabled .page-link {
+    border-color: #0073c6;
+}
+
+.fileupload .uneditable-input {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    height: 28px !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fileupload .thumbnail {
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.fileupload .thumbnail > img {
+    display: block;
+    vertical-align: middle;
+    max-height: 100%;
+}
+
+.fileupload .btn {
+   vertical-align: middle;
+}
+
+.fileupload-exists .fileupload-new,.fileupload-new .fileupload-exists {
+    display: none;
+}
+
+.fileupload-inline .fileupload-controls {
+    display: inline;
+}
+
+.fileupload-new .input-append .btn-file {
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.fileupload .fileupload-preview {
+    vertical-align: middle;
+}
+
+.fileupload .thumbnail > img {
+    display: block;
+    width: 250px;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-thumbnail {
+    padding: 0;
+    border: 2px solid #1064c1;
+}
+
+.img-gale-ajax {
+    width: 100%;
+    height: 150px;
+}
+
+.btn.btn-file {
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+}
+
+.btn.btn-file > input[type=file] {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.nav.nav-tabs.nav-top-border .nav-item a.nav-link.active {
+    border-top: 3px solid #1064c1;
+}
+
+.nav.nav-tabs.nav-top-border .nav-item a {
+    color: #1064c1;
+}
+
+.badge-primary {
+    background-color: #1064c1;
+}
+
+.oldprice {
+    text-decoration: line-through;
+    font-size: 11px;
+    color: #999999;
+}
